@@ -8,22 +8,23 @@ body {
   border-radius: 8px;
 }
 #left-div {
-  display: inline-block;
-  width: 33%;
+  width: 35%;
   padding: 15px;
   border-right: 1px solid #eaeaea;
 }
 
 #right-div {
-  width: 66%;
+  width: 64%;
   padding: 15px;
-  float: right;
 }
 
 .banner-div {
   background-color: #ffc107 !important;
   margin-bottom: 15px;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  height: 25px;
 }
 
 .banner-span {
@@ -34,7 +35,9 @@ body {
   padding: 20px;
   /* border: 2px solid gray; */
 }
-
+#resume-framework .row {
+  display: flex;
+}
 #avatar {
   max-width: 100%;
 }
@@ -87,4 +90,9 @@ body {
 
 #base-info-span {
   display: block;
+}
+li,
+div,
+p {
+  line-height: 27px;
 }
