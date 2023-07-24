@@ -2,272 +2,235 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <title>
-  </title>
-  <link rel="stylesheet" href="css/fontawesome-all.min.css" />
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/base.css" rel="stylesheet" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>
+    </title>
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/base.css" rel="stylesheet" />
 </head>
 
 <body>
-  <div id="resume-framework">
-    <div class="row">
-      <!-- 左边模块包括头像，基本资料，个人简介，技能列表 -->
-      <div id="left-div">
-        <!-- 头像 -->
-        <span id="base-info-span">
-          <!-- 可以从font-awesome网站（https://fontawesome.com/icons）中搜索所需图标，直接替换<i>标签class内内容即可 -->
-          <h3>
-            杨宏旋
-          </h3>
-          <hr />
-          <h5>
-            求职意向: 前端开发
-          </h5>
-          <h5>
-            <i class="fas fa-phone">
-            </i>
-            17600616318
-          </h5>
-          <h5>
-            <i class="fas fa-envelope">
-            </i>
-            782042369@qq.com
-          </h5>
-          <!-- <h5>政治面貌：群众</h5> -->
-        </span>
-        <br />
-        <div class="banner-div">
-          <span class="banner-span">
-            <i class="white-icon fas fa-graduation-cap">
-            </i>
-            &nbsp;个人简介
-          </span>
-        </div>
-        <p>
-          五年前端开发开发经验，作为主力工程师参与设计与开发过多个项目，负责系统核心模块的开发与部署。有优秀的学习能力和团队沟通能力，经常与团队进行技术分享，能与团队共同成长。
-        </p>
-        <hr />
-        <!-- 技能列表 -->
-        <section class="section-wrapper skills-wrapper">
-          <div class="banner-div">
-            <span class="banner-span">
-              <i class="white-icon fas fa-graduation-cap">
-              </i>
-              &nbsp;技能列表
-            </span>
-          </div>
-          <ul style="padding: 0 0px 0 15px;">
-            <li>
-
-              熟练使用 HTML5、CSS3、JavaScript 等 Web 前端开发技术
-
-            </li>
-            <li>
-
-              熟练使用 Vue，Element 搭建前端页面。
-
-            </li>
-            <li>
-
-              熟练使用 React，UMI 搭建前端页面。
-
-            </li>
-            <li>
-
-              熟练使用 Node，使用 Egg 搭建 API 服务。
-
-            </li>
-            <li>
-
-              熟练使用 Docker，自动化部署项目代码。
-
-            </li>
-            <li>
-
-              熟练使用 Webpack 配置常用工具，提供前端工程化能力。
-
-            </li>
-            <li>
-
-              熟练使用 Redis、MySQL、Mongo。
-
-            </li>
-            <li>
-
-              了解 Cocosjs
-
-            </li>
-          </ul>
-          <!-- 技能列表结束 -->
-        </section>
-        <hr />
-        <!-- 教育经历 -->
-        <div id="education">
-          <div class="banner-div">
-            <span class="banner-span">
-              <i class="white-icon fas fa-graduation-cap">
-              </i>
-              &nbsp;教育经历
-            </span>
-          </div>
-          <h4>
-            晋中职业技术学院
-          </h4>
-          <h4>
-            工商管理 | 2013 年 - 2016 年
-          </h4>
-        </div>
-      </div>
-      <!-- end left-div -->
-      <!-- 右边模块开始，包括工作经历，项目经验 -->
-      <div id="right-div">
-        <!-- 工作经历 -->
-        <div id="jobs">
-          <div class="banner-div">
-            <span class="banner-span">
-              <i class="white-icon fas fa-briefcase">
-              </i>
-              &nbsp;工作经历
-            </span>
-          </div>
-          <!-- 第一份工作的介绍 -->
-          <h4>
-            上海太睿信息技术有限公司
-          </h4>
-          <p>
-            2019 年 7 月 - 至今 | 技术经理
-          </p>
-          <ul>
-            <li>
-              作为技术经理负责和组员、产品经理统筹安排技术部项目进度，作为前端组长规划前端项目框架。
-            </li>
-            <li>
-              根据产品规划对接各个媒体 API 文档，对项目代码进行测试优化，
-
-              协助持续集成与自动化部署
-
-              ，提高系统可用性。
-            </li>
-            <li>
-              搭建禅道，优化公司的开发、提测、发布流程。
-            </li>
-            <li>
-              负责技术文档的编写以及维护，定期做项目总结归档。
-            </li>
-            <li>
-              使用 Docker 对多个代理商容器做自动化部署。
-            </li>
-          </ul>
-          <div class="project-span">
-
-            优选智投（ Node + React + Umi + Typescript ）
-
-            <ul>
-              <li>
-                API 使用 Egg + Redis + Mongo，前端 UI 使用 React + Antd + Umi 。
-              </li>
-              <!-- <li>
-                主要负责上下游 ADX 文档接口开发，API 数据的汇总展示。
-              </li> -->
-              <!-- <li>
-
-              </li> -->
-              <li>
-                定时的发送数据报表，保证运营的实时数据了解，优化广告投放配置。
-              </li>
-              <li>
-                业务中存在请求流量过高，采用内存缓存 LRU ，数据采用 Redis 的发布订阅保持更新，加快数据接口的响应。
-              </li>
-            </ul>
-          </div>
-          <div class="project-span">
-
-            穿云箭（ Vue ）
-
-            <ul>
-              <li>
-                使用 Vue + Element 编写前端界面，主要对接巨量引擎、快手、腾讯三个 DSP 媒体。
-              </li>
-              <li>
-                整个项目架构设计，封装多个模块，主要有表格、视图、提供交互式表单 Excel。
-              </li>
-              <!-- <li>
-                主要解决多个代理客户需要运营频繁更换账号登录投放广告。
-              </li> -->
-              <li>
-                业务存在多个媒体的快速迭代，需要前端封装组件尽可能的做到适配多个媒体的交互操作，尽可能使客户操作习惯无障碍平移。
-              </li>
-            </ul>
-          </div>
-          <div class="project-span">
-
-            动感幻影（ Node + Taro + Typescript ）
-
-            <ul>
-              <li>
-                API 使用 Egg + MySQL，小程序 UI 使用 Taro 。
-              </li>
-              <li>
-                主要负责公司影棚的预订和充值业务。
-              </li>
-              <li>
-                业务中存在多个客户多个不同的折扣钱包，单独设计钱包功能，优化销售的预售流程。
-              </li>
-            </ul>
-            <!-- 第二份工作的介绍 -->
-            <h4>
-              北京如易行科技有限公司
-            </h4>
-            <p>
-              2018 年 11 月 -2019 年 7 月 | 前端开发工程师
-            </p>
-            <ul>
-              <li>
-                使用 Vue 开发内嵌页和微信公众号业务。
-              </li>
-            </ul>
-            <div class="project-span">
-
-              亿通行（ Vue ）
-
-              <ul>
-                <li>
-                  使用 Vue 定制开发不同类型的广告业务，有抽奖、植树、 年 终报告等活动。
-                </li>
-                <li>
-                  主要负责不同类的移动端活动的 UI 优化，将需要修改的活动配置抽取成接口，方便运营实时更新活动规则。
-                </li>
-              </ul>
+    <div id="resume-framework">
+        <div class="row">
+            <!-- 左边模块包括头像，基本资料，个人简介，技能列表 -->
+            <div id="left-div">
+                <!-- 头像 -->
+                <span id="base-info-span">
+                    <!-- 可以从font-awesome网站（https://fontawesome.com/icons）中搜索所需图标，直接替换<i>标签class内内容即可 -->
+                    <h3>
+                        杨宏旋
+                    </h3>
+                    <hr />
+                    <h5>
+                        求职意向: 前端开发
+                    </h5>
+                    <h5>
+                        <i class="fas fa-phone">
+                        </i>
+                        17600616318
+                    </h5>
+                    <h5>
+                        <i class="fas fa-envelope">
+                        </i>
+                        782042369@qq.com
+                    </h5>
+                    <!-- <h5>政治面貌：群众</h5> -->
+                </span>
+                <br />
+                <div class="banner-div">
+                    <span class="banner-span">
+                        <i class="white-icon fas fa-graduation-cap">
+                        </i>
+                        &nbsp;个人简介
+                    </span>
+                </div>
+                <p>
+                    七年前端开发开发经验，作为主力工程师参与设计与开发过多个项目，负责系统核心模块的开发与部署。有优秀的学习能力和团队沟通能力，经常与团队进行技术分享，能与团队共同成长。
+                </p>
+                <hr />
+                <!-- 技能列表 -->
+                <section class="section-wrapper skills-wrapper">
+                    <div class="banner-div">
+                        <span class="banner-span">
+                            <i class="white-icon fas fa-graduation-cap">
+                            </i>
+                            &nbsp;技能列表
+                        </span>
+                    </div>
+                    <ul style="padding: 0 0px 0 15px;">
+                        <li>
+                            熟练使用 HTML5、CSS3、JavaScript 等 Web 前端开发技术
+                        </li>
+                        <li>
+                            熟练运用 React 和 Vue 框架，能够构建复杂且高性能的前端应用程序。
+                        </li>
+                        <li>
+                            拥有扎实的 Node.js 开发技能，熟练使用 Koa、Egg、Redis、MySQL 和 MongoDB 等技术栈，能够构建可靠且高效的 API 服务。
+                        </li>
+                        <li>
+                            熟练应用 Docker 实现项目代码的自动化部署和容器化管理，具备高度的开发效率和可扩展性。
+                        </li>
+                        <li>
+                            熟练运用 Webpack 和 Vite 等前端工程化工具，深入了解性能优化、打包策略和模块化开发等方面。
+                        </li>
+                        <li>
+                            熟练使用 Cesium ，能够在三维地图和可视化领域开发复杂的 Bim 业务。
+                        </li>
+                        <!-- 技能列表结束 -->
+                </section>
+                <hr />
+                <!-- 教育经历 -->
+                <div id="education">
+                    <div class="banner-div">
+                        <span class="banner-span">
+                            <i class="white-icon fas fa-graduation-cap">
+                            </i>
+                            &nbsp;教育经历
+                        </span>
+                    </div>
+                    <h4>
+                        晋中职业技术学院
+                    </h4>
+                    <h4>
+                        工商管理 | 2013 年 - 2016 年
+                    </h4>
+                </div>
             </div>
-            <!-- 第四份工作的介绍 -->
-            <h4>
-              北京思源政务通科技集团有限公司
-            </h4>
-            <p>
-              2017 年 8 月 - 2018 年 10 月 | 前端开发工程师
-            </p>
-            <!-- 第五份工作的介绍
-            <h4>
-              北京金域环球科技有限公司
-            </h4>
-            <p>
-              2016 年 3 月 - 2017 年 7 月 | 前端开发工程师
-            </p>
-            第五份工作的介绍
-            <h4>
-              山西钰陆教育有限公司
-            </h4>
-            <p>
-              2015 年 4 月 - 2016 年 1 月 | 前端开发工程师
-            </p> -->
-          </div>
-          <!-- end jobs -->
+            <!-- end left-div -->
+            <!-- 右边模块开始，包括工作经历，项目经验 -->
+            <div id="right-div">
+                <!-- 工作经历 -->
+                <div id="jobs">
+                    <div class="banner-div">
+                        <span class="banner-span">
+                            <i class="white-icon fas fa-briefcase">
+                            </i>
+                            &nbsp;工作经历
+                        </span>
+                    </div>
+                    <!-- 第六份工作的介绍 -->
+                    <div>
+                        <h4>
+                            普联智能数建科技( 北京)有限公司
+                        </h4>
+                        <p>
+                            2021 年 6 月 - | 前端技术经理
+                        </p>
+                        <div class="project-span">
+                            <ul>
+                                <li> 负责项目规划、需求分析、技术选型和开发执行。</li>
+                                <li> 制定开发规范标准，提高团队的效率和灵活性。</li>
+                                <li> 确保项目遵循最佳实践，代码质量得到保障，系统稳定可靠。</li>
+                                <li> 成功管理并交付多个复杂的前端项目，其中包括 BIM、ERP、BI 平台。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 第五份工作的介绍 -->
+                    <div>
+                        <h4>
+                            上海太睿信息技术有限公司
+                        </h4>
+                        <p>
+                            2019 年 7 月 - 2021 年 5 月 | 技术经理
+                        </p>
+                        <ul>
+                            <li>
+                                作为技术经理负责和组员、产品经理统筹安排技术部项目进度，作为前端组长规划前端项目框架。
+                            </li>
+                            <li>
+                                根据产品规划对接各个媒体 API 文档，对项目代码进行测试优化， 协助持续集成与自动化部署 ，提高系统可用性。
+                            </li>
+                            <li>
+                                搭建禅道，优化公司的开发、提测、发布流程。
+                            </li>
+                            <li>
+                                负责技术文档的编写以及维护，定期做项目总结归档。
+                            </li>
+                            <li>
+                                使用 Docker 对多个代理商容器做自动化部署。
+                            </li>
+                        </ul>
+                        <div class="project-span">
+                            优选智投（ Node + React + Umi + Typescript ）
+                            <ul>
+                                <li>
+                                    API 使用 Egg + Redis + Mongo，前端 UI 使用 React + Antd + Umi 。
+                                </li>
+                                <li>
+                                    主要负责上下游 ADX 文档接口开发，API 数据的汇总展示。
+                                </li>
+                                <li>
+                                    使用 Docker 对多个代理商容器做自动化部署。
+                                </li>
+                                <li>
+                                    定时的发送数据报表，保证运营的实时数据了解，优化广告投放配置。
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project-span">
+                            动感幻影（ Node + Taro + Typescript ）
+                            <ul>
+                                <li>
+                                    API 使用 Egg + MySQL，小程序 UI 使用 Taro 。
+                                </li>
+                                <li>
+                                    主要负责公司影棚的预订和充值业务，计钱包功能，完善销售的充值方案。
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 第四份工作的介绍 -->
+                    <div>
+                        <h4>
+                            北京如易行科技有限公司
+                        </h4>
+                        <p>
+                            2018 年 11 月 -2019 年 7 月 | 前端开发工程师 | 亿通行 App 商业化业务
+                        </p>
+                        <!-- <div class="project-span">
+                            <ul>
+                                <li>
+                                    商业活动功能开发，主要负责不同类型的移动端活动的 UI 优化，活动配置抽取成接口，方便运营实时更新活动规则，App 内嵌页和微信公众号业务。
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+
+                    <!-- 第三份工作的介绍 -->
+                    <div>
+                        <h4>
+                            北京思源政务通科技集团有限公司
+                        </h4>
+                        <p>
+                            2017 年 8 月 - 2018 年 10 月 | 前端开发工程师 | 北京通 App 功能业务
+                        </p>
+                    </div>
+                    <!-- 第二份工作的介绍  -->
+                    <div>
+                        <h4>
+                            北京金域环球科技有限公司
+                        </h4>
+                        <p>
+                            2016 年 3 月 - 2017 年 7 月 | 前端开发工程师
+                        </p>
+                    </div>
+                    <!-- 第一份工作的介绍 -->
+                    <div>
+                        <h4>
+                            山西钰陆教育有限公司
+                        </h4>
+                        <p>
+                            2015 年 4 月 - 2016 年 1 月 | 前端开发工程师
+                        </p>
+                    </div>
+                </div>
+                <!-- end jobs -->
+            </div>
+            <!-- end right-div -->
         </div>
-        <!-- end right-div -->
-      </div>
     </div>
 </body>
 
 </html>
+</script>
