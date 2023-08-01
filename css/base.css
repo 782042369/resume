@@ -1,98 +1,71 @@
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, PingFangSC-Regular, Tahoma,
-    'Hiragino Sans GB', 'Heiti SC', 'Microsoft Yahei', sans-serif;
-}
-
-#avatar {
-  width: 300px;
-  border-radius: 8px;
-}
-#left-div {
-  width: 35%;
-  padding: 15px;
-  border-right: 1px solid #eaeaea;
-}
-
-#right-div {
-  width: 64%;
-  padding: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, PingFangSC-Regular, Tahoma,
+        'Hiragino Sans GB', 'Heiti SC', 'Microsoft Yahei', sans-serif;
 }
 
 .banner-div {
-  background-color: #ffc107 !important;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  height: 25px;
-}
-
-.banner-span {
-  margin-left: 6px;
+    background-color: #eae8e8 !important;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
 }
 
 #resume-framework {
-  padding: 20px;
-  /* border: 2px solid gray; */
-}
-#resume-framework .row {
-  display: flex;
-}
-#avatar {
-  max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
+
 .progress-item {
-  position: relative;
+    position: relative;
 }
 
 .progress-item .progress-title {
-  font-size: 15px;
-  font-weight: 400;
-  display: inline-block;
-  margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .progress-item .progress {
-  height: 4px;
-  box-shadow: none;
-  border-radius: 5px;
+    height: 4px;
+    box-shadow: none;
+    border-radius: 5px;
 }
 
 .progress-item .progress-bar {
-  background-color: #000 !important;
-  box-shadow: none;
-  text-align: right;
+    background-color: #000 !important;
+    box-shadow: none;
+    text-align: right;
 }
 
 .progress-item .progress-percent {
-  font-size: 10px;
-  background-color: #313131;
-  position: absolute;
-  top: 5px;
-  padding: 0 8px;
-  border-radius: 3px;
+    font-size: 10px;
+    background-color: #313131;
+    position: absolute;
+    top: 5px;
+    padding: 0 8px;
+    border-radius: 3px;
 }
 
 .progress-item .progress-percent::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  border-top: 6px solid #313131;
-  border-right: 8px solid transparent;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    border-top: 6px solid #313131;
+    border-right: 8px solid transparent;
 }
 
 #left-div img {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
-#base-info-span {
-  display: block;
-}
 li,
 div,
 p {
-  line-height: 27px;
+    line-height: 27px;
 }
